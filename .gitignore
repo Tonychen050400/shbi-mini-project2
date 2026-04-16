@@ -30,3 +30,12 @@ CLAUDE.md
 # Misc
 run_all.py
 models/__init__.py
+
+# LaTeX build artifacts
+*.aux
+*.bbl
+*.blg
+*.fdb_latexmk
+*.fls
+*.out
+*.synctex.gz
