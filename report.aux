@@ -1,0 +1,101 @@
+\relax 
+\providecommand\hyper@newdestlabel[2]{}
+\providecommand\HyperFirstAtBeginDocument{\AtBeginDocument}
+\HyperFirstAtBeginDocument{\ifx\hyper@anchor\@undefined
+\global\let\oldcontentsline\contentsline
+\gdef\contentsline#1#2#3#4{\oldcontentsline{#1}{#2}{#3}}
+\global\let\oldnewlabel\newlabel
+\gdef\newlabel#1#2{\newlabelxx{#1}#2}
+\gdef\newlabelxx#1#2#3#4#5#6{\oldnewlabel{#1}{{#2}{#3}}}
+\AtEndDocument{\ifx\hyper@anchor\@undefined
+\let\contentsline\oldcontentsline
+\let\newlabel\oldnewlabel
+\fi}
+\fi}
+\global\let\hyper@last\relax 
+\gdef\HyperFirstAtBeginDocument#1{#1}
+\providecommand\HyField@AuxAddToFields[1]{}
+\providecommand\HyField@AuxAddToCoFields[2]{}
+\citation{ronneberger2015u}
+\citation{chen2018encoder}
+\citation{ravi2024sam}
+\citation{everingham2010pascal}
+\citation{he2016deep}
+\citation{kirillov2023segment}
+\@writefile{toc}{\contentsline {section}{\numberline {1}Introduction}{1}{section.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {2}Related Work}{1}{section.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{PASCAL VOC.}{1}{section*.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Encoder-decoder.}{1}{section*.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Multi-scale context.}{1}{section*.3}\protected@file@percent }
+\citation{milletari2016v}
+\@writefile{toc}{\contentsline {paragraph}{Foundation models.}{2}{section*.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {3}Methods}{2}{section.3}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.1}Dataset}{2}{subsection.3.1}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{Preprocessing.}{2}{section*.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.2}Architectures}{2}{subsection.3.2}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{U-Net (ResNet-18 / ResNet-50).}{2}{section*.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{DeepLabV3+ (ResNet-50).}{2}{section*.7}\protected@file@percent }
+\@writefile{toc}{\contentsline {paragraph}{SAM2-Large with Semantic Head.}{2}{section*.8}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {3.3}Training}{2}{subsection.3.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {1}{\ignorespaces Training hyperparameters per family.\relax }}{2}{table.caption.9}\protected@file@percent }
+\providecommand*\caption@xref[2]{\@setref\relax\@undefined{#1}}
+\newlabel{tab:training}{{1}{2}{Training hyperparameters per family.\relax }{table.caption.9}{}}
+\@writefile{toc}{\contentsline {paragraph}{Loss functions.}{2}{section*.10}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {4}Evaluation}{3}{section.4}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {5}Results and Analysis}{3}{section.5}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.1}Primary Quantitative Comparison}{3}{subsection.5.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {2}{\ignorespaces Primary results on PASCAL VOC 2007 val split at $512 \times 512$. Best per column in \textbf  {bold}.\relax }}{3}{table.caption.11}\protected@file@percent }
+\newlabel{tab:primary}{{2}{3}{Primary results on PASCAL VOC 2007 val split at $512 \times 512$. Best per column in \textbf {bold}.\relax }{table.caption.11}{}}
+\@writefile{toc}{\contentsline {paragraph}{Key observations.}{3}{section*.12}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.2}Per-Class Analysis}{4}{subsection.5.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {3}{\ignorespaces Per-class IoU and Pixel Accuracy for the SOTA fine-tuned SAM2 model.\relax }}{4}{table.caption.13}\protected@file@percent }
+\newlabel{tab:sam_per_class}{{3}{4}{Per-class IoU and Pixel Accuracy for the SOTA fine-tuned SAM2 model.\relax }{table.caption.13}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {4}{\ignorespaces Per-class IoU and Pixel Accuracy for U-Net (ResNet-18) baseline.\relax }}{4}{table.caption.14}\protected@file@percent }
+\newlabel{tab:unet18_per_class}{{4}{4}{Per-class IoU and Pixel Accuracy for U-Net (ResNet-18) baseline.\relax }{table.caption.14}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {5}{\ignorespaces Per-class IoU and Pixel Accuracy for DeepLabV3+ (R50, OS=8).\relax }}{4}{table.caption.15}\protected@file@percent }
+\newlabel{tab:dlv3p_per_class}{{5}{4}{Per-class IoU and Pixel Accuracy for DeepLabV3+ (R50, OS=8).\relax }{table.caption.15}{}}
+\@writefile{lot}{\contentsline {table}{\numberline {6}{\ignorespaces Per-class IoU and Pixel Accuracy for SAM2-Large (frozen encoder).\relax }}{4}{table.caption.16}\protected@file@percent }
+\newlabel{tab:sam_frozen_per_class}{{6}{4}{Per-class IoU and Pixel Accuracy for SAM2-Large (frozen encoder).\relax }{table.caption.16}{}}
+\@writefile{toc}{\contentsline {subsection}{\numberline {5.3}Qualitative Results}{5}{subsection.5.3}\protected@file@percent }
+\@writefile{lof}{\contentsline {figure}{\numberline {1}{\ignorespaces Mosaic segmentation maps: input image, ground truth, and prediction.\relax }}{5}{figure.caption.17}\protected@file@percent }
+\newlabel{fig:mosaic}{{1}{5}{Mosaic segmentation maps: input image, ground truth, and prediction.\relax }{figure.caption.17}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {2}{\ignorespaces Top-3 best and bottom-3 worst predictions per model, ranked by per-image mIoU.\relax }}{6}{figure.caption.18}\protected@file@percent }
+\newlabel{fig:bestworst}{{2}{6}{Top-3 best and bottom-3 worst predictions per model, ranked by per-image mIoU.\relax }{figure.caption.18}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {3}{\ignorespaces Top/bottom predictions for U-Net R18 and SAM2-L frozen baselines.\relax }}{7}{figure.caption.19}\protected@file@percent }
+\newlabel{fig:bestworst2}{{3}{7}{Top/bottom predictions for U-Net R18 and SAM2-L frozen baselines.\relax }{figure.caption.19}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {4}{\ignorespaces Normalized confusion matrices (row = ground truth, column = prediction).\relax }}{8}{figure.caption.20}\protected@file@percent }
+\newlabel{fig:confusion}{{4}{8}{Normalized confusion matrices (row = ground truth, column = prediction).\relax }{figure.caption.20}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {5}{\ignorespaces Training loss and validation mIoU curves.\relax }}{8}{figure.caption.21}\protected@file@percent }
+\newlabel{fig:curves}{{5}{8}{Training loss and validation mIoU curves.\relax }{figure.caption.21}{}}
+\@writefile{toc}{\contentsline {section}{\numberline {6}Ablation Studies}{8}{section.6}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.1}Backbone Capacity (U-Net R18 vs R50)}{8}{subsection.6.1}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {7}{\ignorespaces Ablation: U-Net backbone capacity.\relax }}{8}{table.caption.22}\protected@file@percent }
+\newlabel{tab:abl_backbone}{{7}{8}{Ablation: U-Net backbone capacity.\relax }{table.caption.22}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {6}{\ignorespaces Backbone ablation (U-Net).\relax }}{9}{figure.caption.23}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.2}Loss Function (Combined vs CE)}{9}{subsection.6.2}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {8}{\ignorespaces Ablation: Loss function effect.\relax }}{9}{table.caption.24}\protected@file@percent }
+\newlabel{tab:abl_loss}{{8}{9}{Ablation: Loss function effect.\relax }{table.caption.24}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {7}{\ignorespaces Loss function ablation.\relax }}{9}{figure.caption.25}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.3}Data Augmentation}{10}{subsection.6.3}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {9}{\ignorespaces Ablation: Data augmentation effect.\relax }}{10}{table.caption.26}\protected@file@percent }
+\newlabel{tab:abl_aug}{{9}{10}{Ablation: Data augmentation effect.\relax }{table.caption.26}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {8}{\ignorespaces Data augmentation ablation.\relax }}{10}{figure.caption.27}\protected@file@percent }
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.4}Output Stride (DeepLabV3+)}{10}{subsection.6.4}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {10}{\ignorespaces Ablation: Output stride (DeepLabV3+).\relax }}{10}{table.caption.28}\protected@file@percent }
+\newlabel{tab:abl_os}{{10}{10}{Ablation: Output stride (DeepLabV3+).\relax }{table.caption.28}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {9}{\ignorespaces Output stride ablation.\relax }}{10}{figure.caption.29}\protected@file@percent }
+\bibstyle{plain}
+\bibdata{main}
+\bibcite{chen2018encoder}{1}
+\bibcite{everingham2010pascal}{2}
+\bibcite{he2016deep}{3}
+\@writefile{toc}{\contentsline {subsection}{\numberline {6.5}SAM2 Encoder Regime: Frozen vs Fine-tuned}{11}{subsection.6.5}\protected@file@percent }
+\@writefile{lot}{\contentsline {table}{\numberline {11}{\ignorespaces Ablation: SAM2-Large encoder training regime.\relax }}{11}{table.caption.30}\protected@file@percent }
+\newlabel{tab:abl_sam}{{11}{11}{Ablation: SAM2-Large encoder training regime.\relax }{table.caption.30}{}}
+\@writefile{lof}{\contentsline {figure}{\numberline {10}{\ignorespaces SAM2-Large frozen vs fine-tuned.\relax }}{11}{figure.caption.31}\protected@file@percent }
+\@writefile{toc}{\contentsline {section}{\numberline {7}Conclusion}{11}{section.7}\protected@file@percent }
+\bibcite{kirillov2023segment}{4}
+\bibcite{milletari2016v}{5}
+\bibcite{ravi2024sam}{6}
+\bibcite{ronneberger2015u}{7}
+\gdef \@abspage@last{12}

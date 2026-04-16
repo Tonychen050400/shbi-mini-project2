@@ -1,0 +1,32 @@
+# Python
+*.pyc
+__pycache__/
+.venv/
+
+# Outputs, checkpoints, visualizations
+checkpoints/
+results/
+latex_figures/
+*.log
+run.log
+autoresearch_log.tsv
+
+# Dataset
+dataset/
+
+# Planning files
+task_plan.md
+findings.md
+progress.md
+
+# PDF, report, and LaTeX
+*.pdf
+report.tex
+
+# Claude Code
+CLAUDE.md
+.claude/
+
+# Misc
+run_all.py
+models/__init__.py
